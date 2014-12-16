@@ -17,10 +17,13 @@
 		<h1>K19 - Desenvolvimento Web com JSF2 e JPA2</h1>
 	</div>
 	
+	<h:form>
+		<h:commandButton value="Anterior" action="anterior"></h:commandButton>
+		<h:commandButton value="Próximo" action="proximo"></h:commandButton>
+	</h:form>
+	
 	<h:link value="Componentes Visuais" outcome="componentes-visuais" />
-	<br></br>
 	<h:link value="Templates e Modularização" outcome="templates-e-modularizacao" />
-	<br></br>
 	<h:link value="Navegação" outcome="navegacao" />
 	
 	<ui:insert name="corpo-da-pagina"> Espaço para o conteúdo da tela </ui:insert>

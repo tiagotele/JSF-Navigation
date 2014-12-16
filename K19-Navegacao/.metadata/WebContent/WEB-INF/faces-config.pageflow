@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14187625852480" configfile="/K19-Navegacao/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="componentes-visuais.xhtml" id="pf14187630259771" referenceLink="//@navigationRule.1/@navigationCase.1/@toViewId|" outlinks="pf14187630259782" inlinks="pf14187632170266" path="componentes-visuais.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="templates-e-modularizacao.xhtml" id="pf14187630259793" referenceLink="//@navigationRule.2/@navigationCase.0/@toViewId|" outlinks="pf14187630551124 pf14187632170266" inlinks="pf14187630259782 pf14187632823427" path="templates-e-modularizacao.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="navegacao.xhtml" id="pf14187630551125" referenceLink="//@navigationRule.2/@fromViewId|" outlinks="pf14187632823427" inlinks="pf14187630551124" path="navegacao.xhtml"/>
+  <links id="pf14187630259782" target="pf14187630259793" source="pf14187630259771" outcome="proximo"/>
+  <links id="pf14187630551124" target="pf14187630551125" source="pf14187630259793" outcome="proximo"/>
+  <links id="pf14187632170266" target="pf14187630259771" source="pf14187630259793" outcome="anterior"/>
+  <links id="pf14187632823427" target="pf14187630259793" source="pf14187630551125" outcome="anterior"/>
+</pageflow:Pageflow>
